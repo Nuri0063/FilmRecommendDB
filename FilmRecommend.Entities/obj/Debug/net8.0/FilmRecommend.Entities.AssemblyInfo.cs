@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmRecommend.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+735b83517060a759e5b725f92077a8f0f3684c86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b2e080b5d5350d0a27b8d49135b65214316b5a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmRecommend.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmRecommend.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

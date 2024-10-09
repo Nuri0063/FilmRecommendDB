@@ -5,7 +5,7 @@ using FilmRecommend.Entities;
 using FilmRecommend.Data;
 
 
-FilmMoodDBContext context = new();
+//FilmMoodDBContext context = new();
 
 namespace FilmRecommend.Data
 {
