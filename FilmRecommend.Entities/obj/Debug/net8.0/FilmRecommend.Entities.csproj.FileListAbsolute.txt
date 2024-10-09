@@ -12,3 +12,4 @@ C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\De
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.pdb
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.genruntimeconfig.cache
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\ref\FilmRecommend.Entities.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.sourcelink.json

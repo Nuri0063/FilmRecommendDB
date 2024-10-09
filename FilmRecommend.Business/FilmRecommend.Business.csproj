@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FilmRecommend.Data\FilmRecommend.Data.csproj" />
+    <ProjectReference Include="..\FilmRecommend.Entities\FilmRecommend.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

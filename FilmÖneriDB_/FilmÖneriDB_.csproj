@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FilmRecommend.Business\FilmRecommend.Business.csproj" />
     <ProjectReference Include="..\FilmRecommend.Data\FilmRecommend.Data.csproj" />
     <ProjectReference Include="..\FilmRecommend.Entities\FilmRecommend.Entities.csproj" />
   </ItemGroup>

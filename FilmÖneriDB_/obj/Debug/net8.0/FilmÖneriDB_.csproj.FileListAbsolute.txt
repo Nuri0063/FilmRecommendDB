@@ -132,3 +132,4 @@ C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmÖneriDB_\bin\Debug\net8.
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmÖneriDB_\bin\Debug\net8.0\FilmRecommend.Entities.pdb
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmÖneriDB_\bin\Debug\net8.0\FilmRecommend.Data.dll
 C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmÖneriDB_\bin\Debug\net8.0\FilmRecommend.Data.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmÖneriDB_\obj\Debug\net8.0\FilmÖneriDB_.sourcelink.json
