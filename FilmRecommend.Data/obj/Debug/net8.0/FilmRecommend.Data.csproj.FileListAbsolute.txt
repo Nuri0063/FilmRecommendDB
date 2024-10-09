@@ -1,0 +1,17 @@
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Data.deps.json
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Data.runtimeconfig.json
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Data.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Data.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Entities.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\bin\Debug\net8.0\FilmRecommend.Entities.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.csproj.AssemblyReference.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.AssemblyInfoInputs.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.AssemblyInfo.cs
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.csproj.CoreCompileInputs.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmReco.7C1D62EA.Up2Date
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\refint\FilmRecommend.Data.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\FilmRecommend.Data.genruntimeconfig.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Data\obj\Debug\net8.0\ref\FilmRecommend.Data.dll

@@ -1,0 +1,14 @@
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\bin\Debug\net8.0\FilmRecommend.Entities.deps.json
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\bin\Debug\net8.0\FilmRecommend.Entities.runtimeconfig.json
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\bin\Debug\net8.0\FilmRecommend.Entities.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\bin\Debug\net8.0\FilmRecommend.Entities.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.csproj.AssemblyReference.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.AssemblyInfoInputs.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.AssemblyInfo.cs
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.csproj.CoreCompileInputs.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\refint\FilmRecommend.Entities.dll
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.pdb
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\FilmRecommend.Entities.genruntimeconfig.cache
+C:\Users\nurii\vs_projeler-denemeler\FilmÖneriDB_\FilmRecommend.Entities\obj\Debug\net8.0\ref\FilmRecommend.Entities.dll
