@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj": {}
+    "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj": {
+    "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
+        "projectUniqueName": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
         "projectName": "FilmRecommend.Business",
-        "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
+        "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
         "packagesPath": "C:\\Users\\nurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\obj\\",
+        "outputPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj"
               },
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
+    "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj",
+        "projectUniqueName": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj",
         "projectName": "FilmRecommend.Data",
-        "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj",
+        "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj",
         "packagesPath": "C:\\Users\\nurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\obj\\",
+        "outputPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
+    "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj",
         "projectName": "FilmRecommend.Entities",
-        "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj",
+        "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj",
         "packagesPath": "C:\\Users\\nurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\obj\\",
+        "outputPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,14 +222,14 @@
         }
       }
     },
-    "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj": {
+    "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj",
+        "projectUniqueName": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj",
         "projectName": "FilmÖneriDB_",
-        "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj",
+        "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmÖneriDB_\\FilmÖneriDB_.csproj",
         "packagesPath": "C:\\Users\\nurii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmÖneriDB_\\obj\\",
+        "outputPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmÖneriDB_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -247,14 +247,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj"
               },
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Data\\FilmRecommend.Data.csproj"
               },
-              "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
-                "projectPath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
+              "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj": {
+                "projectPath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Entities\\FilmRecommend.Entities.csproj"
               }
             }
           }

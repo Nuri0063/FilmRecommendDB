@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWwqMoMgGv8=",
+  "dgSpecHash": "mZg9f8dHS6I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nurii\\vs_projeler-denemeler\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
+  "projectFilePath": "C:\\Users\\nurii\\OneDrive\\Desktop\\FilmRecommendApp_Notes\\FilmÖneriDB_\\FilmRecommend.Business\\FilmRecommend.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nurii\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nurii\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -11,30 +11,10 @@
         // Filmleri ekleyen metot
         public void AddMoviesToDatabase()
         {
-            /*
-            MovieCategory movieCategory = new()
-            {
-                CategoryName = "Aksiyon",
-                SubCategories = new List<MovieSubCategory>()
-            {
-                new MovieSubCategory()
-                {
-                    SubCategoryName = "Casusuluk",
-                    Movies = new HashSet<Movie>()
-                    {
-                        new Movie(){MovieName="Skyfall", ReleaseYear=2012, Director="Sam Mendes", LeadingActor="Daniel Craig", Rating=7.8},
-                        new Movie(){MovieName="Mission: Impossible - Fallout", ReleaseYear=2018, Director="Christopher McQuarrie", LeadingActor="Tom Cruise", Rating=7.7},
-                        new Movie(){MovieName="Tinker Tailor Soldier Spy", ReleaseYear=2011, Director="Tomas Alfredson", LeadingActor="Gary Oldman", Rating=7.1},
-                        new Movie(){MovieName="The Bourne Identity", ReleaseYear=2002, Director="Doug Liman", LeadingActor="Matt Damon", Rating=7.9},
-                        new Movie(){MovieName="Bridge of Spies", ReleaseYear=2015, Director="Steven Spielberg", LeadingActor="Tom Hanks", Rating=7.6}
-                    }
-                }
-            }
-            };
-            */
+          
 
-
-            MovieCategory movieCategory = new()
+            // Akiyon kategorisi altındaki alt başlıkları ve o alt başlıklara ait filmleri ekleme 
+            MovieCategory movieCategoryAksiyon = new() 
             {
                 CategoryName = "Aksiyon",
                 SubCategories = new List<MovieSubCategory>()
@@ -152,9 +132,207 @@
 
             };
 
-            
+            // Belgesel kategorisi altındaki alt başlıkları ve o alt başlıklara ait filmleri ekleme 
+            MovieCategory movieCategoryBelgesel = new()
+            {
+                CategoryName = "Belgesel",
+                SubCategories = new List<MovieSubCategory>()
+            {
 
-            context.MovieCategories.Add(movieCategory); // Film kategorisini ekle
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Belgesel",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Planet Earth",
+                            ReleaseYear=2006,
+                            Director="Alastair Fothergill",
+                            LeadingActor="David Attenborough",
+                            Rating=9.4},
+
+                        new Movie(){
+                            MovieName="The Last Dance",
+                            ReleaseYear=2020,
+                            Director="Jason Hehir",
+                            LeadingActor="Michael Jordan",
+                            Rating=9.1},
+
+                        new Movie(){
+                            MovieName="Free Solo",
+                            ReleaseYear=2018,
+                            Director="Elizabeth Chai Vasarhelyi, Jimmy Chin",
+                            LeadingActor="Alex Honnold",
+                            Rating=8.1},
+
+                        new Movie(){
+                            MovieName="13th ",
+                            ReleaseYear=2016,
+                            Director="Ava DuVernay",
+                            LeadingActor="Belgesel"
+                            , Rating=8.2},
+
+                        new Movie(){
+                            MovieName="Won't You Be My Neighbor?",
+                            ReleaseYear=2018,
+                            Director="Morgan Neville",
+                            LeadingActor="Fred Rogers",
+                            Rating=8.4
+                        }
+                    }
+
+                 },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Doğa",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="March of the Penguins",
+                            ReleaseYear=2005,
+                            Director="Luc Jacquet",
+                            LeadingActor="Morgan Freeman",
+                            Rating=7.5},
+
+                        new Movie(){
+                            MovieName="Rivers and Tides",
+                            ReleaseYear=2001,
+                            Director="Thomas Riedelsheimer",
+                            LeadingActor="Andy Goldsworthy",
+                            Rating=8.1},
+
+                        new Movie(){
+                            MovieName="The Blue Planet",
+                            ReleaseYear=2001,
+                            Director="Alastair Fothergill, Andy Byatt",
+                            LeadingActor="David Attenborough",
+                            Rating=9.0},
+
+                        new Movie(){
+                            MovieName="Chasing Ice",
+                            ReleaseYear=2012,
+                            Director="Jeff Orlowski",
+                            LeadingActor=" James Balog"
+                            , Rating=7.8},
+
+                        new Movie(){
+                            MovieName="Our Planet",
+                            ReleaseYear=2019,
+                            Director="Alastair Fothergill, Jonathan Hughes",
+                            LeadingActor="David Attenborough",
+                            Rating=9.3
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Gezi", //yarım
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="March of the Penguins",
+                            ReleaseYear=2005,
+                            Director="Luc Jacquet",
+                            LeadingActor="Morgan Freeman",
+                            Rating=7.5},
+
+                        new Movie(){
+                            MovieName="Rivers and Tides",
+                            ReleaseYear=2001,
+                            Director="Thomas Riedelsheimer",
+                            LeadingActor="Andy Goldsworthy",
+                            Rating=8.1},
+
+                        new Movie(){
+                            MovieName="The Blue Planet",
+                            ReleaseYear=2001,
+                            Director="Alastair Fothergill, Andy Byatt",
+                            LeadingActor="David Attenborough",
+                            Rating=9.0},
+
+                        new Movie(){
+                            MovieName="Chasing Ice",
+                            ReleaseYear=2012,
+                            Director="Jeff Orlowski",
+                            LeadingActor=" James Balog"
+                            , Rating=7.8},
+
+                        new Movie(){
+                            MovieName="Our Planet",
+                            ReleaseYear=2019,
+                            Director="Alastair Fothergill, Jonathan Hughes",
+                            LeadingActor="David Attenborough",
+                            Rating=9.3
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Yarı Belgesel",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="March of the Penguins",
+                            ReleaseYear=2005,
+                            Director="Luc Jacquet",
+                            LeadingActor="Morgan Freeman",
+                            Rating=7.5},
+
+                        new Movie(){
+                            MovieName="Rivers and Tides",
+                            ReleaseYear=2001,
+                            Director="Thomas Riedelsheimer",
+                            LeadingActor="Andy Goldsworthy",
+                            Rating=8.1},
+
+                        new Movie(){
+                            MovieName="The Blue Planet",
+                            ReleaseYear=2001,
+                            Director="Alastair Fothergill, Andy Byatt",
+                            LeadingActor="David Attenborough",
+                            Rating=9.0},
+
+                        new Movie(){
+                            MovieName="Chasing Ice",
+                            ReleaseYear=2012,
+                            Director="Jeff Orlowski",
+                            LeadingActor=" James Balog"
+                            , Rating=7.8},
+
+                        new Movie(){
+                            MovieName="Our Planet",
+                            ReleaseYear=2019,
+                            Director="Alastair Fothergill, Jonathan Hughes",
+                            LeadingActor="David Attenborough",
+                            Rating=9.3
+                        }
+                    }
+                },
+
+
+            }
+
+
+                };
+
+
+
+
+
+
+
+
+
+
+            
+            context.MovieCategories.Add(movieCategoryBelgesel); // Film kategorisini ekle
             context.SaveChanges(); // Değişiklikleri kaydet
 
 
