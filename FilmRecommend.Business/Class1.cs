@@ -543,6 +543,191 @@
 
             };
 
+            // Dram kategorisi altındaki alt başlıkları ve o alt başlıklara ait filmleri ekleme
+            MovieCategory movieCategoryDram = new()
+            {
+                CategoryName = "Dram",
+                SubCategories = new List<MovieSubCategory>()
+            {
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Dramatik",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="The Shawshank Redemption",
+                            ReleaseYear=1994,
+                            Director="Frank Darabont",
+                            LeadingActor="Tim Robbins, Morgan Freeman",
+                            Rating=9.3},
+
+                        new Movie(){
+                            MovieName="Forrest Gump",
+                            ReleaseYear=1994,
+                            Director="Robert Zemeckis",
+                            LeadingActor="Tom Hanks",
+                            Rating=8.8},
+
+                        new Movie(){
+                            MovieName="The Green Mile",
+                            ReleaseYear=1999,
+                            Director="Frank Darabont",
+                            LeadingActor="Tom Hanks, Michael Clarke Duncan",
+                            Rating=8.6},
+
+                        new Movie(){
+                            MovieName="A Beautiful Mind",
+                            ReleaseYear=2001,
+                            Director="Ron Howard",
+                            LeadingActor="Russell Crowe"
+                            , Rating=8.2},
+
+                        new Movie(){
+                            MovieName="12 Years a Slave",
+                            ReleaseYear=2013,
+                            Director="Steve McQueen",
+                            LeadingActor="Chiwetel Ejiofor",
+                            Rating=8.1
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Melodram",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Far from the Madding Crowd",
+                            ReleaseYear=2015,
+                            Director="Thomas Vinterberg",
+                            LeadingActor="Carey Mulligan",
+                            Rating=7.1},
+
+                        new Movie(){
+                            MovieName="Atonement ",
+                            ReleaseYear=2007,
+                            Director="Joe Wright",
+                            LeadingActor=" Keira Knightley",
+                            Rating=7.8},
+
+                        new Movie(){
+                            MovieName="Revolutionary Road",
+                            ReleaseYear=2008,
+                            Director="Sam Mendes",
+                            LeadingActor="Leonardo DiCaprio",
+                            Rating=7.3},
+
+                        new Movie(){
+                            MovieName="Titanic ",
+                            ReleaseYear=1997,
+                            Director="James Cameron",
+                            LeadingActor="Leonardo DiCaprio, Kate Winslet"
+                            , Rating=7.9},
+
+                        new Movie(){
+                            MovieName="The Notebook",
+                            ReleaseYear=2004,
+                            Director="Nick Cassavetes",
+                            LeadingActor=" Ryan Gosling",
+                            Rating=7.8
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Politik Dram",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="The Trial of the Chicago 7",
+                            ReleaseYear=2020,
+                            Director="Aaron Sorkin",
+                            LeadingActor="Eddie Redmayne",
+                            Rating=7.8},
+
+                        new Movie(){
+                            MovieName="The Post",
+                            ReleaseYear=2017,
+                            Director="Steven Spielberg",
+                            LeadingActor="Meryl Streep",
+                            Rating=7.2},
+
+                        new Movie(){
+                            MovieName="Milk ",
+                            ReleaseYear=2008,
+                            Director="Gus Van Sant",
+                            LeadingActor="Sean Penn",
+                            Rating=7.5},
+
+                        new Movie(){
+                            MovieName="Lincoln ",
+                            ReleaseYear=2012,
+                            Director="Steven Spielberg",
+                            LeadingActor="Daniel Day-Lewis"
+                            , Rating=7.3},
+
+                        new Movie(){
+                            MovieName="The Ides of March",
+                            ReleaseYear=2011,
+                            Director="George Clooney",
+                            LeadingActor="Ryan Gosling",
+                            Rating=7.1
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Tarihi Dram",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Dunkirk ",
+                            ReleaseYear=2017,
+                            Director="Christopher Nolan",
+                            LeadingActor=" Fionn Whitehead",
+                            Rating=7.8},
+
+                        new Movie(){
+                            MovieName="The Last Emperor",
+                            ReleaseYear=1987,
+                            Director="Bernardo Bertolucci",
+                            LeadingActor="John Lone",
+                            Rating=7.7},
+
+                        new Movie(){
+                            MovieName="The King's Speech",
+                            ReleaseYear=2010,
+                            Director="Tom Hooper",
+                            LeadingActor="Colin Firth",
+                            Rating=8.0},
+
+                        new Movie(){
+                            MovieName="Gladiator ",
+                            ReleaseYear=2000,
+                            Director="Ridley Scott",
+                            LeadingActor="Russell Crowe, Joaquin Phoenix"
+                            , Rating=8.5},
+
+                        new Movie(){
+                            MovieName="Schindler's List",
+                            ReleaseYear=1993,
+                            Director="Steven Spielberg",
+                            LeadingActor="Liam Neeson",
+                            Rating=9.0
+                        }
+                    }
+                },
+
+                }
+            };
 
 
 
@@ -555,7 +740,7 @@
 
 
 
-            context.MovieCategories.Add(movieCategoryBelgesel); // Film kategorisini ekle
+            context.MovieCategories.Add(movieCategoryDram); // Film kategorisini ekle
             context.SaveChanges(); // Değişiklikleri kaydet
 
 

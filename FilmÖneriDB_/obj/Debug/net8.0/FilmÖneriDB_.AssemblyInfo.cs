@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmÖneriDB_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea76e7bb825bed30fe3df44e9989c8d05ae1b531")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84bc494c9dcacddd30e512aa6eb8a98adcae39f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmÖneriDB_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmÖneriDB_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
