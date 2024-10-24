@@ -14,11 +14,10 @@ namespace FilmÖneriDB_
 
 
             //FilmMoodDBContext context = new FilmMoodDBContext();
-            //var a = context.MovieCategories.Find(1002);
-            //var b = context.MovieCategories.Find(6);
-            //context.Remove(a);
-            //context.Remove(b);
-            //context.SaveChanges();
+            //var a = context.MovieCategories.Find(1006);
+            //context.MovieCategories.Remove(a);
+            //context.SaveChanges();  
+
 
 
 

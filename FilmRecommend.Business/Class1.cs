@@ -729,6 +729,191 @@
                 }
             };
 
+            // Gerilim kategorisi altındaki alt başlıkları ve o alt başlıklara ait filmleri ekleme
+            MovieCategory movieCategoryGerilim = new()
+            {
+                CategoryName = "Gerilim",
+                SubCategories = new List<MovieSubCategory>()
+            {
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Gerilim ",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Shutter Island",
+                            ReleaseYear=2010,
+                            Director="Martin Scorsese",
+                            LeadingActor="Leonardo DiCaprio",
+                            Rating=8.2},
+
+                        new Movie(){
+                            MovieName="Zodiac",
+                            ReleaseYear=2007,
+                            Director="David Fincher",
+                            LeadingActor="Jake Gyllenhaal, Robert Downey Jr.",
+                            Rating=7.7},
+
+                        new Movie(){
+                            MovieName="The Silence of the Lambs",
+                            ReleaseYear=1991,
+                            Director="Jonathan Demme",
+                            LeadingActor="Jodie Foster",
+                            Rating=8.6},
+
+                        new Movie(){
+                            MovieName="Gone Girl",
+                            ReleaseYear=2014,
+                            Director="David Fincher",
+                            LeadingActor="Ben Affleck"
+                            , Rating=8.1},
+
+                        new Movie(){
+                            MovieName="Se7en ",
+                            ReleaseYear=1995,
+                            Director="David Fincher",
+                            LeadingActor="Brad Pitt, Morgan Freeman",
+                            Rating=8.6
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Aksiyon-Gerilim",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Colombiana",
+                            ReleaseYear=2011,
+                            Director="Olivier Megaton",
+                            LeadingActor="Zoe Saldana",
+                            Rating=6.4},
+
+                        new Movie(){
+                            MovieName="Casino Royale",
+                            ReleaseYear=2006,
+                            Director="Martin Campbell",
+                            LeadingActor="Daniel Craig",
+                            Rating=8.0},
+
+                        new Movie(){
+                            MovieName="John Wick: Chapter 2",
+                            ReleaseYear=2017,
+                            Director="Chad Stahelski",
+                            LeadingActor=" Keanu Reeves",
+                            Rating=7.4},
+
+                        new Movie(){
+                            MovieName="The Dark Knight Rises",
+                            ReleaseYear=2012,
+                            Director="Christopher Nolan",
+                            LeadingActor="Christian Bale, Tom Hardy"
+                            , Rating=8.4},
+
+                        new Movie(){
+                            MovieName="Mad Max: Fury Road ",
+                            ReleaseYear=2015,
+                            Director="George Miller",
+                            LeadingActor="Tom Hardy",
+                            Rating=8.1
+                        }
+                    }
+                },
+                
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Politik Gerilim",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="Argo",
+                            ReleaseYear=2012,
+                            Director=" Ben Affleck",
+                            LeadingActor="Ben Affleck",
+                            Rating=7.7},
+
+                        new Movie(){
+                            MovieName="The Manchurian Candidate",
+                            ReleaseYear=2004,
+                            Director="Jonathan Demme",
+                            LeadingActor="Denzel Washington",
+                            Rating=6.6},
+
+                        new Movie(){
+                            MovieName="Clear and Present Danger",
+                            ReleaseYear=1994,
+                            Director="Phillip Noyce",
+                            LeadingActor="Harrison Ford",
+                            Rating=6.9},
+
+                        new Movie(){
+                            MovieName="Body of Lies",
+                            ReleaseYear=2008,
+                            Director="Ridley Scott",
+                            LeadingActor=" Leonardo DiCaprio"
+                            , Rating=7.0},
+
+                        new Movie(){
+                            MovieName="The Hunt for Red October",
+                            ReleaseYear=1990,
+                            Director="John McTiernan",
+                            LeadingActor="Sean Connery",
+                            Rating=7.5
+                        }
+                    }
+                },
+
+                new MovieSubCategory()
+                {
+                    SubCategoryName = "Psikolojik Gerilim",
+                    Movies = new HashSet<Movie>()
+                    {
+
+                        new Movie(){
+                            MovieName="The Sixth Sense ",
+                            ReleaseYear=1999,
+                            Director="M. Night Shyamalan",
+                            LeadingActor="Bruce Willis",
+                            Rating=8.2},
+
+                        new Movie(){
+                            MovieName="Memento",
+                            ReleaseYear=2000,
+                            Director="Christopher Nolan",
+                            LeadingActor="Guy Pearce",
+                            Rating=8.4},
+
+                        new Movie(){
+                            MovieName="Gone Girl",
+                            ReleaseYear=2014,
+                            Director="David Fincher",
+                            LeadingActor="Ben Affleck",
+                            Rating=8.1},
+
+                        new Movie(){
+                            MovieName="Fight Clup",
+                            ReleaseYear=1999,
+                            Director="David Fincher",
+                            LeadingActor="Brad Pitt"
+                            , Rating=8.8},
+
+                        new Movie(){
+                            MovieName="Black Swan",
+                            ReleaseYear=2010,
+                            Director="Darren Aronofsky",
+                            LeadingActor="Natalie Portman",
+                            Rating=8.0
+                        }
+                    }
+                },
+
+                }
+            };
 
 
 
@@ -740,12 +925,14 @@
 
 
 
-            context.MovieCategories.Add(movieCategoryDram); // Film kategorisini ekle
+
+            context.MovieCategories.Add(movieCategoryGerilim); // Film kategorisini ekle
             context.SaveChanges(); // Değişiklikleri kaydet
 
 
         }
 
+      
 
 
 
