@@ -62,13 +62,15 @@ namespace FilmÖneriDB_
                 Console.WriteLine(selectedSubCategory.SubCategoryName + " alt kategorisine ait filmler:");
                 for (int i = 0; i < movies.Count; i++)
                 {
-                    Console.WriteLine("------------------------------"+movies[i].MovieName+"-------------------------------------------------");
-                    Console.WriteLine(" Film Adı: " + movies[i].MovieName +
-                                      ",\n Yönetmen: " + movies[i].Director +
-                                      ",\n Çıkış Yılı: " + movies[i].ReleaseYear +
-                                      ",\n Başrol: " + movies[i].LeadingActor +
-                                      ",\n IMDB Puanı: " + movies[i].Rating);
+                    Console.WriteLine("---------------------------------------------------------");
+                    Console.WriteLine("Film Adı       : " + movies[i].MovieName);
+                    Console.WriteLine("Yönetmen       : " + movies[i].Director);
+                    Console.WriteLine("Çıkış Yılı     : " + movies[i].ReleaseYear);
+                    Console.WriteLine("Başrol Oyuncu  : " + movies[i].LeadingActor);
+                    Console.WriteLine("IMDB Puanı     : " + movies[i].Rating);
+                    Console.WriteLine("---------------------------------------------------------\n");
                 }
+            }
 
                 // Eğer film yoksa kullanıcıya bilgi veriyoruz.
                 if (movies.Count == 0)
